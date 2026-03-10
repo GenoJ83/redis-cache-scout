@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redis-cache-scout"
+version = "0.1.0"
+description = "Redis keyspace memory profiler and prefix trie analyzer"
+authors = [{ name = "Geno Joshua" }]
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
