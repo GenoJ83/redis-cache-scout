@@ -1,0 +1,1 @@
+"""Synthetic keyspace generator."""
