@@ -1,0 +1,1 @@
+"""Namespace naming rules."""
